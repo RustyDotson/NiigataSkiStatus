@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+}
+
+.header-bar ul{
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.header-bar li {
+    float: left;
+    width: 25%;
+}
+
+.header-bar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    display: block;
+}
+
+.header-bar a:hover {
+    background-color: tomato;
+}
+
+@font-face{
+    font-family: main;
+    src: url('cour.ttf');
+    font-weight: bold;}
+    
+    body {font-family: main; color:green}
+    h1 {font-family:main; color: pink}

@@ -1,0 +1,72 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='header.css')}}">
+        <style>
+            .grid-container {
+              display: grid;
+              grid-template-columns: auto auto auto auto;
+              background-color: #5e6a55;
+              padding: 10px;
+            }
+            .grid-item {
+              background-color: white;
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              padding: 20px;
+              font-size: 20px;
+              text-align: center;
+            }
+            .resort-point {
+                text-decoration: none;
+                color: black;
+                text-align: center;
+            }
+            .resort-info-list {
+                list-style-type: none;
+                font-size: 15px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    
+
+
+    <body>
+
+
+        <h1>
+            
+        </h1>
+
+
+        <nav class="header-bar">
+            <ul>
+                <li><a class="header-link">Home</a></li>
+                <li><a class="header-link">Info</a></li>
+                <li><a class="header-link">Other Info</a></li>
+                <li><a class="header-link">Credit</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            Niigata Prefecture Ski Resort Weather Status. Last updated on {{update_time}}
+            <div class="grid-container">
+                {% for row in test %}
+                <div class="grid-item">
+                    <div class="grid-item">{{row[0].title()}} Ski Resort</div>
+                    <ul class="resort-info-list">
+                        <li><a class="resort-point">Conditions: {{row[3]}}, {{weather_code_info[row[3]]['day']['description']}}</a>  <img src="{{weather_code_info[row[3]]['day']['image']}}">  </li>
+                        <li><a class="resort-point">Max Temp: {{row[4]}} C</a></li>
+                        <li><a class="resort-point">Min Temp: {{row[5]}} C</a></li>
+                        <li><a class="resort-point">Snowfall Sum: {{row[7]}} cm</a></li>
+                        <li><a class="resort-point">Rainfall Sum: {{row[6]}} mm</a></li>
+                        <li><a class="resort-point">Max Wind Speed: {{row[8]}} km/hr</a></li>
+                        <li><a class="resort-point">Avg Wind Direction: {{row[9]}} degrees</a></li>
+                    </ul>
+                </div>
+                {%endfor%}
+            </div>
+        </main>
+    </body>
+</html>
