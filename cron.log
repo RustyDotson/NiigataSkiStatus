@@ -1,0 +1,584 @@
+Fri Feb  6 11:10:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    weather_codes = open("descriptions.json", 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'descriptions.json'
+Fri Feb  6 11:11:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    weather_codes = open("descriptions.json", 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'descriptions.json'
+Fri Feb  6 11:12:02 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:13:00 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:14:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:15:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:16:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:17:02 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:18:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:19:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:20:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:21:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:22:00 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:23:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:24:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:25:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:26:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:27:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:28:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:29:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:30:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:31:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:32:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:33:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+    for row in cur.execute("SELECT * FROM weather"):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:34:01 2026updating database now.
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 95, in update_db
+sqlite3.OperationalError: no such table: weather
+Fri Feb  6 11:35:02 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:35:07 2026Database Updated.
+Fri Feb  6 11:36:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:36:01 2026Database Updated.
+Fri Feb  6 11:37:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:37:01 2026Database Updated.
+Fri Feb  6 11:38:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:38:01 2026Database Updated.
+Fri Feb  6 11:39:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:39:02 2026Database Updated.
+Fri Feb  6 11:40:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:40:01 2026Database Updated.
+Fri Feb  6 11:41:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:41:01 2026Database Updated.
+Fri Feb  6 11:42:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:42:01 2026Database Updated.
+Fri Feb  6 11:49:31 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:49:31 2026Database Updated.
+Fri Feb  6 11:50:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:50:01 2026Database Updated.
+Fri Feb  6 11:51:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:51:01 2026Database Updated.
+Fri Feb  6 11:52:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:52:01 2026Database Updated.
+Fri Feb  6 11:59:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 11:59:01 2026Database Updated.
+Fri Feb  6 12:00:00 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 12:00:00 2026Database Updated.
+Fri Feb  6 16:00:01 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 16:00:18 2026Database Updated.
+Fri Feb  6 17:00:02 2026updating database now.
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Fri Feb  6 17:00:02 2026Database Updated.

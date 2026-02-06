@@ -5,6 +5,7 @@ import time
 from retry_requests import retry
 import json
 import math
+from config import *
 
 import sqlite3
 
@@ -86,10 +87,10 @@ def create_weather_db(con, cur, locations):
 
 def update_db():
 
-    con = sqlite3.connect("weather.db")
+    con = sqlite3.connect(DB_PATH)
     cur = con.cursor()
     cur2 = con.cursor()
-    weather_codes = open("descriptions.json", 'r')
+    weather_codes = open(DESC_PATH, 'r')
 
 
     for row in cur.execute("SELECT * FROM weather"):
@@ -109,17 +110,17 @@ def update_db():
 
 
 def store_update_time():
-    file = open("update_time.txt", "w")
+    file = open(TIME_PATH, "w")
     file.write(time.ctime())
     file.close()
 
 
 def test_function():
-    con = sqlite3.connect("weather.db")
+    con = sqlite3.connect(DB_PATH)
     cur = con.cursor()
     cur2 = con.cursor()
 
-    file = open("descriptions.json")
+    file = open(DESC_PATH)
     weather_data = json.load(file)
 
     print(weather_data['75']['day']['description'])
