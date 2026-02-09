@@ -105,6 +105,7 @@ def update_db():
                      "\' WHERE location = \'" + row[0] + "\'")
     
     con.commit()
+    con.close()
     store_update_time()
     return
 
@@ -140,6 +141,8 @@ def test_function():
 
         except:
             print(f"⚠️ Weather fetch failed for {row[1]}, {row[2]}")
+    
+    con.close()
 
 
 if __name__ == "__main__":

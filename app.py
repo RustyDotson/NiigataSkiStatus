@@ -13,11 +13,21 @@ def home():
     con = sqlite3.connect(DB_PATH)
     cur = con.cursor()
     cur.execute('SELECT * FROM weather')
+    weather_table = cur.fetchall()
+    con.close()
 
-    file = open(DESC_PATH)
-    weather_codes = json.load(file)
+    with open(DESC_PATH) as file:
+        weather_codes = json.load(file)
 
-    return render_template("home.html", test = cur, weather_code_info = weather_codes, update_time = open(TIME_PATH).readline())
+    with open(TIME_PATH) as file:
+        update_time = file.readline().strip()
+
+    return render_template(
+        "home.html", 
+        weather = weather_table, 
+        weather_code_info = weather_codes, 
+        update_time = update_time
+    )
 
 @app.route('/hellotwo')
 def hello_world_two():
