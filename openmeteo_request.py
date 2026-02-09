@@ -127,15 +127,19 @@ def test_function():
     
 
     for row in cur.execute("SELECT * FROM weather"):
-        fetched_weather_data = get_data(row[1], row[2])
-        cur2.execute("UPDATE weather SET weather_code = 'YAAAAAR', temperature_2m_max = \'" +            str(fetched_weather_data['temperature_2m_max'][0]) + 
+        try: 
+            fetched_weather_data = get_data(row[1], row[2])
+            cur2.execute("UPDATE weather SET weather_code = 'YAAAAAR', temperature_2m_max = \'" +            str(fetched_weather_data['temperature_2m_max'][0]) + 
                      "\', temperature_2m_min = \'" +            str(fetched_weather_data['temperature_2m_min'][0]) + 
                      "\', rain_sum = \'" +                      str(fetched_weather_data['rain_sum'][0]) + 
                      "\', snowfall_sum = \'" +                  str(fetched_weather_data['snowfall_sum'][0]) + 
                      "\', wind_speed_10m_max = \'" +            str(fetched_weather_data['wind_speed_10m_max'][0]) + 
                      "\', wind_direction_10m_dominant = \'" +   str(fetched_weather_data['wind_direction_10m_dominant'][0]) + 
                      "\' WHERE location = \'" + row[0] + "\'")
-        con.commit()
+            con.commit()
+
+        except:
+            print(f"⚠️ Weather fetch failed for {row[1]}, {row[2]}")
 
 
 if __name__ == "__main__":

@@ -1127,3 +1127,248 @@ Timezone difference to GMT+0 32400 s
 
 Mon Feb  9 10:00:01 2026, Database Updated.
 
+
+
+Mon Feb  9 11:00:02 2026, updating database now.
+
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 975, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x10b71e0d0>: Failed to resolve 'api.open-meteo.com' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 2 more times]
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.72&longitude=139.37&daily=weather_code&daily=temperature_2m_max&daily=temperature_2m_min&daily=rain_sum&daily=snowfall_sum&daily=wind_speed_10m_max&daily=wind_direction_10m_dominant&timezone=Asia%2FTokyo&forecast_days=1&models=jma_seamless&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10b71e0d0>: Failed to resolve 'api.open-meteo.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 22, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 7, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 97, in update_db
+    fetched_weather_data = get_data(row[1], row[2])
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 31, in get_data
+    responses = openmeteo.weather_api(url, params=params)
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 54, in weather_api
+    return self._get(WeatherApiResponse, url, params, method, verify)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/openmeteo_requests/Client.py", line 31, in _get
+    response = self.session.request("GET", url, params=params, verify=verify)
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests_cache/session.py", line 183, in request
+    return super().request(method, url, *args, headers=headers, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests_cache/session.py", line 228, in send
+    response = self._resend(request, actions, cached_response, **kwargs)  # type: ignore
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests_cache/session.py", line 294, in _resend
+    return self._handle_error(cached_response, actions)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests_cache/session.py", line 286, in _resend
+    response = self._send_and_cache(request, actions, cached_response, **kwargs)
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests_cache/session.py", line 254, in _send_and_cache
+    response = super().send(request, **kwargs)
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.72&longitude=139.37&daily=weather_code&daily=temperature_2m_max&daily=temperature_2m_min&daily=rain_sum&daily=snowfall_sum&daily=wind_speed_10m_max&daily=wind_direction_10m_dominant&timezone=Asia%2FTokyo&forecast_days=1&models=jma_seamless&format=flatbuffers (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10b71e0d0>: Failed to resolve 'api.open-meteo.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+
+Mon Feb  9 12:00:02 2026, updating database now.
+
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.849998474121094°N 138.75°E
+Elevation 1672.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.900001525878906°N 138.125°E
+Elevation 1833.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.875°E
+Elevation 785.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Mon Feb  9 12:00:22 2026, Database Updated.
+
+
+
+Mon Feb  9 14:00:01 2026, updating database now.
+
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.849998474121094°N 138.75°E
+Elevation 1672.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.900001525878906°N 138.125°E
+Elevation 1833.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.875°E
+Elevation 785.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Mon Feb  9 14:00:22 2026, Database Updated.
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Mon Feb  9 15:00:01 2026, updating database now.
+
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.849998474121094°N 138.75°E
+Elevation 1672.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.900001525878906°N 138.125°E
+Elevation 1833.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.875°E
+Elevation 785.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Mon Feb  9 15:00:01 2026, Database Updated.
+

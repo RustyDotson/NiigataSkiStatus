@@ -1,8 +1,14 @@
 import openmeteo_request
 #import schedule
 import time
+from config import *
+import os
 
 def request_weather_info():
+    print("Trying to open DB at:", DB_PATH)
+    print("Exists?", os.path.exists(DB_PATH))
+    print("Dir exists?", os.path.exists(os.path.dirname(DB_PATH)))
+
     print("\n\n" + time.ctime() + ", updating database now.\n")
     openmeteo_request.update_db()
     print("\n" + time.ctime() + ", Database Updated.\n")
