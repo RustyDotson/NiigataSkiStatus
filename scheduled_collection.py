@@ -3,9 +3,9 @@ import openmeteo_request
 import time
 
 def request_weather_info():
-    print(time.ctime() + "updating database now.")
+    print("\n\n" + time.ctime() + ", updating database now.\n")
     openmeteo_request.update_db()
-    print(time.ctime() + "Database Updated.")
+    print("\n" + time.ctime() + ", Database Updated.\n")
     return ()
 
 
