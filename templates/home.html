@@ -52,15 +52,15 @@
             <div class="grid-container">
                 {% for row in weather %}
                 <div class="grid-item">
-                    <div class="grid-item">{{ row[0].title() }} Ski Resort</div>
+                    <div class="grid-item">{{ row[1].title() }} Ski Resort</div>
                     <ul class="resort-info-list">
-                        <li><a class="resort-point">Conditions: {{ row[3] }}, {{ weather_code_info[row[3]]['day']['description'] }}</a>  <img src="{{ weather_code_info[row[3]]['day']['image'] }}">  </li>
-                        <li><a class="resort-point">Max Temp: {{ row[4] }} C</a></li>
-                        <li><a class="resort-point">Min Temp: {{ row[5] }} C</a></li>
-                        <li><a class="resort-point">Snowfall Sum: {{ row[7] }} cm</a></li>
-                        <li><a class="resort-point">Rainfall Sum: {{ row[6] }} mm</a></li>
-                        <li><a class="resort-point">Max Wind Speed: {{ row[8] }} km/hr</a></li>
-                        <li><a class="resort-point">Avg Wind Direction: {{ row[9] }} degrees</a></li>
+                        <li><a class="resort-point">Conditions: {{ row[4] }}, {{ weather_code_info[row[4]]['day']['description'] }}</a>  <img src="{{ weather_code_info[row[4]]['day']['image'] }}">  </li>
+                        <li><a class="resort-point">Max Temp: {{ row[5] }} C</a></li>
+                        <li><a class="resort-point">Min Temp: {{ row[6] }} C</a></li>
+                        <li><a class="resort-point">Snowfall Sum: {{ row[8] }} cm</a></li>
+                        <li><a class="resort-point">Rainfall Sum: {{ row[7] }} mm</a></li>
+                        <li><a class="resort-point">Max Wind Speed: {{ row[9] }} km/hr</a></li>
+                        <li><a class="resort-point">Avg Wind Direction: {{ row[10] }} degrees</a></li>
                     </ul>
                 </div>
                 {% endfor %}

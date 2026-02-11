@@ -6,6 +6,7 @@ from retry_requests import retry
 import json
 import math
 from config import *
+from db import get_db_connection
 
 import sqlite3
 
@@ -87,25 +88,38 @@ def create_weather_db(con, cur, locations):
 
 def update_db():
 
-    con = sqlite3.connect(DB_PATH)
-    cur = con.cursor()
-    cur2 = con.cursor()
-    weather_codes = open(DESC_PATH, 'r')
+    #con = sqlite3.connect(DB_PATH)
+    with get_db_connection() as con:
+        with con.cursor() as cur:
 
+            cur.execute("SELECT location, lat, lon FROM weather")
+            rows = cur.fetchall()
 
-    for row in cur.execute("SELECT * FROM weather"):
-        fetched_weather_data = get_data(row[1], row[2])
-        cur2.execute("UPDATE weather SET weather_code = \'" +   str(math.floor(fetched_weather_data['weather_code'][0])) +
-                     "\', temperature_2m_max = \'" +            str(math.floor(fetched_weather_data['temperature_2m_max'][0])) + 
-                     "\', temperature_2m_min = \'" +            str(math.floor(fetched_weather_data['temperature_2m_min'][0])) + 
-                     "\', rain_sum = \'" +                      str(math.floor(fetched_weather_data['rain_sum'][0])) + 
-                     "\', snowfall_sum = \'" +                  str(math.floor(fetched_weather_data['snowfall_sum'][0])) + 
-                     "\', wind_speed_10m_max = \'" +            str(math.floor(fetched_weather_data['wind_speed_10m_max'][0])) + 
-                     "\', wind_direction_10m_dominant = \'" +   str(math.floor(fetched_weather_data['wind_direction_10m_dominant'][0])) + 
-                     "\' WHERE location = \'" + row[0] + "\'")
-    
-    con.commit()
-    con.close()
+            for location, lat, lon in rows:
+                fetched_weather_data = get_data(lat, lon)               
+                cur.execute("""
+                    UPDATE weather 
+                    SET 
+                    weather_code = %s,
+                    temperature_2m_max = %s,
+                    temperature_2m_min = %s,
+                    rain_sum = %s,
+                    snowfall_sum = %s,
+                    wind_speed_10m_max = %s,
+                    wind_direction_10m_dominant = %s
+                    WHERE location = %s
+                    """,
+                    (
+                        str(math.floor(fetched_weather_data['weather_code'][0])),
+                        str(math.floor(fetched_weather_data['temperature_2m_max'][0])),
+                        str(math.floor(fetched_weather_data['temperature_2m_min'][0])),
+                        str(math.floor(fetched_weather_data['rain_sum'][0])),
+                        str(math.floor(fetched_weather_data['snowfall_sum'][0])),
+                        str(math.floor(fetched_weather_data['wind_speed_10m_max'][0])),
+                        str(math.floor(fetched_weather_data['wind_direction_10m_dominant'][0])),
+                        location
+                    )
+                )
     store_update_time()
     return
 

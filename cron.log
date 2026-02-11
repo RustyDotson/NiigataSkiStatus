@@ -1372,3 +1372,369 @@ Timezone difference to GMT+0 32400 s
 
 Mon Feb  9 15:00:01 2026, Database Updated.
 
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Mon Feb  9 16:00:01 2026, updating database now.
+
+Coordinates 38.0°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.849998474121094°N 138.75°E
+Elevation 1672.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.900001525878906°N 138.125°E
+Elevation 1833.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.875°E
+Elevation 785.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Mon Feb  9 16:00:22 2026, Database Updated.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 1, in <module>
+    import openmeteo_request
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 9, in <module>
+    from db import get_db_connection
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 2, in <module>
+    import psycopg
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/__init__.py", line 9, in <module>
+    from . import pq  # noqa: F401 import early to stabilize side effects
+    ^^^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 116, in <module>
+    import_from_libpq()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg/pq/__init__.py", line 108, in import_from_libpq
+            raise ImportError(
+    ...<4 lines>...
+            )
+ImportError: no pq wrapper available.
+Attempts made:
+- couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+- couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+- couldn't import psycopg 'python' implementation: libpq library not found

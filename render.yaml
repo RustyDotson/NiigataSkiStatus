@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: flask-weather
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+
+  - type: cron
+    name: update-weather
+    schedule: "0 * * * *"
+    command: python update_weather.py
+
+databases:
+  - name: weather-db
+    plan: free
