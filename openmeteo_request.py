@@ -125,9 +125,9 @@ def update_db():
 
 
 def store_update_time():
-    file = open(TIME_PATH, "w")
-    file.write(time.ctime())
-    file.close()
+    # Update timestamp is now handled by the database updated_at column
+    # No need to write to file anymore
+    pass
 
 
 def test_function():

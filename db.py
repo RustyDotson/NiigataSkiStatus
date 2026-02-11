@@ -1,7 +1,7 @@
 import os
-import psycopg
+import psycopg2
 
 DATABASE_URL = os.environ.get("DATABASE_URL")
 
 def get_db_connection():
-    return psycopg.connect(DATABASE_URL)
+    return psycopg2.connect(DATABASE_URL)
