@@ -125,9 +125,20 @@ def update_db():
 
 
 def store_update_time():
-    file = open(TIME_PATH, "w")
-    file.write(time.ctime())
-    file.close()
+    # Update the updated_at timestamp in the database so Render can display it
+    try:
+        with get_db_connection() as con:
+            with con.cursor() as cur:
+                # set updated_at to now() for all rows
+                cur.execute("UPDATE weather SET updated_at = NOW()")
+    except Exception:
+        # fallback: keep writing the time to the file if DB update fails
+        try:
+            file = open(TIME_PATH, "w")
+            file.write(time.ctime())
+            file.close()
+        except Exception:
+            pass
 
 
 def test_function():
