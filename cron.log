@@ -1760,3 +1760,27 @@ Attempts made:
 - couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
 - couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
 - couldn't import psycopg 'python' implementation: libpq library not found
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Wed Feb 11 16:00:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+

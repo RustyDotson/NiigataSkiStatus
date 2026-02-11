@@ -106,7 +106,8 @@ def update_db():
                     rain_sum = %s,
                     snowfall_sum = %s,
                     wind_speed_10m_max = %s,
-                    wind_direction_10m_dominant = %s
+                    wind_direction_10m_dominant = %s,
+                    updated_at = NOW()
                     WHERE location = %s
                     """,
                     (
