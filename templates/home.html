@@ -54,7 +54,11 @@
                 <div class="grid-item">
                     <div class="grid-item">{{ row[1].title() }} Ski Resort</div>
                     <ul class="resort-info-list">
+                        {% if row[4] in weather_code_info %}
                         <li><a class="resort-point">Conditions: {{ row[4] }}, {{ weather_code_info[row[4]]['day']['description'] }}</a>  <img src="{{ weather_code_info[row[4]]['day']['image'] }}">  </li>
+                        {% else %}
+                        <li><a class="resort-point">Conditions: {{ row[4] }} (unknown)</a></li>
+                        {% endif %}
                         <li><a class="resort-point">Max Temp: {{ row[5] }} C</a></li>
                         <li><a class="resort-point">Min Temp: {{ row[6] }} C</a></li>
                         <li><a class="resort-point">Snowfall Sum: {{ row[8] }} cm</a></li>
