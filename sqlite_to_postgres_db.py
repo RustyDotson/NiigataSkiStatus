@@ -1,14 +1,19 @@
+"""
+This is an early script used to migrate data from the local Sqlite3 database
+to the Postgres database hosted on Render.com. Currently not in use, but may
+be useful in the future.
+""" 
+
 import sqlite3
-import os
 from db import get_db_connection
 
 SQLITE_DB_PATH = "weather.db"
 
-# Connect to SQLite
+# Connect to SQLite db
 sqlite_con = sqlite3.connect(SQLITE_DB_PATH)
 sqlite_cur = sqlite_con.cursor()
 
-# Fetch all data
+# Fetch all data from SQLite weather table
 sqlite_cur.execute("SELECT * FROM weather")
 rows = sqlite_cur.fetchall()
 
@@ -17,8 +22,9 @@ print(f"Found {len(rows)} rows in SQLite")
 # Insert into Postgres
 with get_db_connection() as pg_con:
     with pg_con.cursor() as pg_cur:
-
-        """pg_cur.execute(\"""
+        # Create table if one doesnt exist. Currently not needed, but may be useful in the future.
+        """
+        pg_cur.execute(\"""
             CREATE TABLE IF NOT EXISTS weather (
                 id SERIAL PRIMARY KEY,
                 location TEXT UNIQUE NOT NULL,
@@ -35,7 +41,11 @@ with get_db_connection() as pg_con:
 
                 updated_at TIMESTAMP DEFAULT NOW()
             );
-        \""")"""
+        \""")
+        """
+
+        # Iterates through each entry in the sqlite weather table 
+        # and inserts into the Postgres weather table.
 
         for row in rows:
             print(len(row), row)

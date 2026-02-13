@@ -98,6 +98,7 @@ def update_db():
             for location, lat, lon in rows:
                 fetched_weather_data = get_data(lat, lon)               
                 cur.execute("""
+                    set timezone TO 'Asia/Tokyo';
                     UPDATE weather 
                     SET 
                     weather_code = %s,
@@ -121,43 +122,7 @@ def update_db():
                         location
                     )
                 )
-    store_update_time()
     return
-
-
-def store_update_time():
-    # Update timestamp is now handled by the database updated_at column
-    # No need to write to file anymore
-    pass
-
-
-def test_function():
-    con = sqlite3.connect(DB_PATH)
-    cur = con.cursor()
-    cur2 = con.cursor()
-
-    file = open(DESC_PATH)
-    weather_data = json.load(file)
-
-    print(weather_data['75']['day']['description'])
-    
-
-    for row in cur.execute("SELECT * FROM weather"):
-        try: 
-            fetched_weather_data = get_data(row[1], row[2])
-            cur2.execute("UPDATE weather SET weather_code = 'YAAAAAR', temperature_2m_max = \'" +            str(fetched_weather_data['temperature_2m_max'][0]) + 
-                     "\', temperature_2m_min = \'" +            str(fetched_weather_data['temperature_2m_min'][0]) + 
-                     "\', rain_sum = \'" +                      str(fetched_weather_data['rain_sum'][0]) + 
-                     "\', snowfall_sum = \'" +                  str(fetched_weather_data['snowfall_sum'][0]) + 
-                     "\', wind_speed_10m_max = \'" +            str(fetched_weather_data['wind_speed_10m_max'][0]) + 
-                     "\', wind_direction_10m_dominant = \'" +   str(fetched_weather_data['wind_direction_10m_dominant'][0]) + 
-                     "\' WHERE location = \'" + row[0] + "\'")
-            con.commit()
-
-        except:
-            print(f"⚠️ Weather fetch failed for {row[1]}, {row[2]}")
-    
-    con.close()
 
 
 if __name__ == "__main__":

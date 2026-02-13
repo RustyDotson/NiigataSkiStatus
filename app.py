@@ -1,10 +1,6 @@
 from flask import Flask, render_template
-import os
-import requests
-import openmeteo_request
-import sqlite3
 import json
-from config import DB_PATH, DESC_PATH
+from config import DESC_PATH
 from db import get_db_connection
 
 app = Flask(__name__)
@@ -26,7 +22,7 @@ def home():
     with open(DESC_PATH) as file:
         # descriptions.json keys are strings; convert to ints for easier lookup
         raw_codes = json.load(file)
-        weather_codes = {int(k): v for k, v in raw_codes.items()}
+        weather_codes = {int(k): v for k, v in raw_codes.items()} # dict comprehension that converts keys to ints.
 
     print(update_time)
 

@@ -1784,3 +1784,1737 @@ Traceback (most recent call last):
     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
 psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
 
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Thu Feb 12 18:00:02 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Thu Feb 12 19:00:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Thu Feb 12 20:00:02 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Thu Feb 12 23:05:25 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 02:08:54 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 03:09:43 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 08:01:07 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 09:00:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 10:00:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 16:00:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 16:13:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 16:14:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 16:15:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: /Users/rustydotson/Projects/NiigataSkiStatus/data/weather.db
+Exists? True
+Dir exists? True
+
+
+Fri Feb 13 16:16:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 28, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 13, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+Trying to open DB at: None
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 10, in request_weather_info
+    print("Exists?", os.path.exists(DATABASE_URL))
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 19, in exists
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+Trying to open DB at: None
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 10, in request_weather_info
+    print("Exists?", os.path.exists(DATABASE_URL))
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 19, in exists
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+Trying to open DB at: None
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 10, in request_weather_info
+    print("Exists?", os.path.exists(DATABASE_URL))
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 19, in exists
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+Trying to open DB at: None
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 10, in request_weather_info
+    print("Exists?", os.path.exists(DATABASE_URL))
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 19, in exists
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+Trying to open DB at: None
+
+
+Fri Feb 13 16:21:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 14, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 7, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+None
+Trying to open DB at: None
+
+
+Fri Feb 13 16:22:02 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 14, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 8, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+None
+Trying to open DB at: None
+
+
+Fri Feb 13 16:23:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 14, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 8, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+None
+Trying to open DB at: None
+
+
+Fri Feb 13 16:24:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 14, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 8, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+None
+Trying to open DB at: None
+
+
+Fri Feb 13 16:25:02 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 14, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 8, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+None
+Trying to open DB at: None
+
+
+Fri Feb 13 16:26:01 2026, updating database now.
+
+Traceback (most recent call last):
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 29, in <module>
+    request_weather_info()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/scheduled_collection.py", line 14, in request_weather_info
+    openmeteo_request.update_db()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/openmeteo_request.py", line 92, in update_db
+    with get_db_connection() as con:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/db.py", line 8, in get_db_connection
+    return psycopg2.connect(DATABASE_URL)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/rustydotson/Projects/NiigataSkiStatus/venv/lib/python3.13/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "rustydotson" does not exist
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:27:01 2026, updating database now.
+
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:27:11 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:28:01 2026, updating database now.
+
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:28:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:29:02 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:29:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:30:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:30:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:31:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:31:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:32:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:32:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:33:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:33:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:34:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:34:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:35:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:35:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:36:01 2026, updating database now.
+
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:36:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:37:01 2026, updating database now.
+
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:37:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:38:01 2026, updating database now.
+
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:38:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:39:01 2026, updating database now.
+
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:39:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:40:01 2026, updating database now.
+
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:40:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:41:01 2026, updating database now.
+
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:41:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:42:02 2026, updating database now.
+
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:42:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:43:01 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:43:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:44:02 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:44:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:45:01 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:45:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:46:01 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:46:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:47:02 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:47:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:48:01 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:48:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:49:01 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:49:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:50:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:50:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:51:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:51:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:52:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:52:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:53:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:53:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:54:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:54:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:55:01 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:55:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:56:02 2026, updating database now.
+
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:56:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:57:01 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:57:03 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:58:01 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:58:04 2026, Database Updated.
+
+postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+Trying to open DB at: postgresql://weather_hoos_user:hJ3Xv9ETiYJzGyYxTPRw0zyflNW0hZ0k@dpg-d65vkm75r7bs73c7j3dg-a.oregon-postgres.render.com/weather_hoos
+
+
+Fri Feb 13 16:59:00 2026, updating database now.
+
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 802.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.95000076293945°N 138.8125°E
+Elevation 846.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.6875°E
+Elevation 1605.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 38.04999923706055°N 139.5°E
+Elevation 122.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 36.79999923706055°N 138.75°E
+Elevation 1260.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.70000076293945°N 139.375°E
+Elevation 28.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+Coordinates 37.95000076293945°N 139.4375°E
+Elevation 152.0 m asl
+Timezone b'Asia/Tokyo' b'GMT+9'
+Timezone difference to GMT+0 32400 s
+
+Fri Feb 13 16:59:02 2026, Database Updated.
+
