@@ -14,17 +14,21 @@
               border: 1px solid rgba(0, 0, 0, 0.8);
               padding: 20px;
               font-size: 20px;
+
+              display: flex;
+              flex-direction: column;
+              justify-content: center;  /* vertical centering */
+              align-items: center;
               text-align: center;
             }
             .resort-point {
                 text-decoration: none;
                 color: black;
-                text-align: center;
             }
             .resort-info-list {
                 list-style-type: none;
                 font-size: 15px;
-                text-align: center;
+                padding: 0;
             }
         </style>
     </head>
@@ -52,7 +56,7 @@
             <div class="grid-container">
                 {% for row in weather %}
                 <div class="grid-item">
-                    <div class="grid-item">{{ row[1].title() }} Ski Resort</div>
+                    <div>{{ row[1].title() }} Ski Resort</div>
                     <ul class="resort-info-list">
                         {% set code_key = row[4] %}
                         {% if code_key in weather_code_info %}
@@ -67,7 +71,7 @@
                         <li><a class="resort-point">Snowfall Sum: {{ row[8] }} cm</a></li>
                         <li><a class="resort-point">Rainfall Sum: {{ row[7] }} mm</a></li>
                         <li><a class="resort-point">Max Wind Speed: {{ row[9] }} km/hr</a></li>
-                        <li><a class="resort-point">Avg Wind Direction: {{ row[10] }} degrees</a></li>
+                        <li><a class="resort-point">Avg Wind Direction: from {{ row[10] }} degrees</a></li>
                     </ul>
                 </div>
                 {% endfor %}
